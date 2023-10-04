@@ -81,17 +81,23 @@ Si no cumple ninguna de las condiciones anteriores debe imprimir el mismo númer
 
 /* 6. Escribe un programa que le pida al usuario una frase y un número. El programa debe 
 imprimir la frase en la consola el número de veces que ingresó el usuario. Por ejemplo, si 
-el usuario ingresó la frase Hola Mundo y el número 5, el programa debe imprimir Hola Mundo 5 veces:*/
+el usuario ingresó la frase Hola Mundo y el número 5, el programa debe imprimir Hola Mundo
+5 veces:*/
 
-let frase = prompt("Escribe aquí una frase")
-let number = prompt("Escribe aquí un número")
-number = Number(number)
+// let number = Number(prompt("Escribe aquí un número"));
+// let frase = prompt("Escribe aquí una frase");
 
-datos = {frase:number,}
+// let datos = []
 
-for (i=0;i<datos.number();i++){
-    console.log(frase)
-}
+// for (i=0;i<number;i++){
+//     datos.push(frase)
+// }
+
+// for(datos.length=0; datos.length<number;datos.length++){
+//     console.log(frase)
+// }
+
+
 
 
 
