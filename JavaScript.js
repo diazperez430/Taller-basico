@@ -239,20 +239,19 @@ de ceros y unos. */
 
 
 
-const nums = [ 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1 ];
+// const nums = [ 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1 ];
 
-console.log(nums)
+// console.log(nums)
 
-const numsfiltrado = []
+// const numsfiltrado = []
 
-for (i=0;i<=nums.length;i++){
-    if (nums[i]=1){
-        numsfiltrado.push();
-    }
-}
+// for (i=0;i<=nums.length;i++){
+//     if (nums[i]==1){
+//         numsfiltrado.push(nums[i]);
+//     }
+// }
 
-
- 
+// console.log(numsfiltrado.length) 
 
 
 
