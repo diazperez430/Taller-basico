@@ -97,21 +97,160 @@ el usuario ingresó la frase Hola Mundo y el número 5, el programa debe imprimi
 //     console.log(frase)
 // }
 
+/* 7. Escribe un programa para la consola que le pida al usuario dos números e imprima en la 
+consola los números en ese rango. Por ejemplo, si el usuario ingresa 5 como primer número 
+y 10 como segundo número, el programa debe imprimir:
+5
+6
+7
+8
+9
+10*/
+
+// let primerNumero=Number(prompt("Ingresa el primer número"))
+// let segundoNumero=Number(prompt("Ingresa el segundo número"))
+
+// const numeros = []
+
+// if (segundoNumero>0){
+//     for (i = primerNumero;i<=segundoNumero;i++){
+//         numeros.push(i)
+//     }
+// }
+// else{
+
+//     for(i=primerNumero;i>=segundoNumero;i--){
+//         numeros.push(i)
+//     }
+// }
+
+// console.log(numeros)
+
+/* 8.  Crea un programa a partir de las siguientes instrucciones:
+
+Crea una variable llamada nombres con un arreglo que tenga los siguientes elementos: "Pedro",
+"Pablo", "María", "Juan", "Diana".
+Pídele al usuario que ingrese un nombre e insértalo al final del arreglo que creaste en el 
+paso 1.
+Pídele al usuario que ingrese otro nombre y reemplaza la tercera posición del arreglo con 
+este valor.
+Recorre el arreglo e imprímelo.
+Un ejemplo de cómo se comportaría el programa en la consola sería el siguiente:
+
+    Ingresa un nombre > Camilo
+    Ingresa otro nombre > Ariel
+    Pedro
+    Pablo
+    Ariel
+    Juan
+    Diana
+    Camilo */
+
+
+// let nombre = ["Pedro", "Pablo","María","Juan","Diana"]
+// let newName= prompt("Ingresa aquí un nombre")
+
+// nombre.push(newName)
+
+// let newNameDos=prompt("Ingresa aquí un nombre")
+
+// nombre.splice(2,0,newNameDos)
+
+// console.log(nombre)
 
 
 
+/* 9. Escribe un programa que:
+
+Le pida al usuario un número y cree un arreglo de números empezando en el 1 hasta el número 
+que el usuario ingrese (incluyéndolo)
+
+Elimine el segundo elemento.
+
+Recorra e imprima el arreglo.
+Ejemplo:
+
+    Ingresa un número> 5
+    1
+    3
+    4
+    5*/
 
 
 
+// let arreglo=[]
+// let numero = Number(prompt("Ingrese aquí un número"))
+
+// if(numero>0){
+
+//     for (i=1;i<=numero;i++){
+//         arreglo.push(i)
+//     }
+
+// }
+// else {
+
+//     for (i=1;i>=numero;i--){
+//         arreglo.push(i)
+//     }
+    
+// }
+
+// console.log(arreglo)
+
+
+/* 10 Completa el siguiente programa para imprimir los números que sean mayores a 10.
+
+const nums = [1, 23, 5, 8, 40, 12, 2, 67, 24, 9, 39]
+
+// escribe tu código acá
+El resultado debería ser el siguiente:
+
+23
+40
+12
+67
+24
+39
+
+NOTA: este ejercicio lo debes hacer con ciclos y sin ayuda de la función filter de JavaScript.
+ Al terminarlo cambia el arreglo original para verificar que funcione con otros números.*/
+
+// const nums = [1, 23, 5, 8, 40, 12, 2, 67, 24, 9, 30]
+
+// for (i=0;i<=nums.length;i++){
+//     if(nums[i]>10){
+//         console.log(nums[i])
+//     }
+// }
+
+
+/* 11. Completa el siguiente programa e imprime la cantidad de unos (1) que haya en el arreglo:
+
+const nums = [ 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1 ];
+
+El resultado debería ser el siguiente:
+
+11
+
+NOTA: este ejercicio lo debes hacer con ciclos y sin ayuda de la función filter de JavaScript.
+Al terminarlo, cambia el arreglo original para verificar que funcione con otras combinaciones
+de ceros y unos. */
 
 
 
+const nums = [ 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1 ];
 
+console.log(nums)
 
+const numsfiltrado = []
 
+for (i=0;i<=nums.length;i++){
+    if (nums[i]=1){
+        numsfiltrado.push();
+    }
+}
 
-
- 
 
  
 
